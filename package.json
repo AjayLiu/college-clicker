@@ -13,7 +13,8 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"deploy": "npm install && npm run build && npx firebase deploy",
-		"predeploy": "npm install && npm run build"
+		"predeploy": "npm install && npm run build",
+		"firebase:login": "npx firebase login"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
